@@ -3,14 +3,14 @@ Rest Api with Spring Boot User Authentication Authorization , Spring Security an
 
 # technologies
 
-*Spring Boot
-*Spring Security
-*Redis for Sessions
-*MySQL
+- Spring Boot
+- Spring Security
+- Redis for Sessions
+- MySQL
 
 # features
 
-*Authentication
-*Authorization
-*Login
-*Register
+- Authentication
+- Authorization
+- Login
+- Register
