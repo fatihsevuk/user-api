@@ -56,7 +56,8 @@ public class RegisterController {
 
             try {
                 savingUser=userService.createUser(savingUser,userRoles);
-                return new ResponseEntity("User registered successfull, userId: "+savingUser.getId(), HttpStatus.OK);
+
+                return new ResponseEntity("User registered successfully, userId: "+savingUser.getId(), HttpStatus.OK);
 
             }catch(Exception e) {
                 return new ResponseEntity("Db Error", HttpStatus.INTERNAL_SERVER_ERROR);

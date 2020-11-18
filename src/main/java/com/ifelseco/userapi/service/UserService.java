@@ -8,6 +8,7 @@ import java.util.Set;
 public interface UserService {
 
     User createUser(User user, Set<UserRole> userRole);
+    User save(User user);
     User findByUsername(String username);
     User findByEmail(String email);
 

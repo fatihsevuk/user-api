@@ -30,6 +30,8 @@ public class User implements UserDetails , Serializable {
     private String email;
     private String phone;
 
+    private boolean enabled;
+
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL,fetch = FetchType.LAZY)
     @EqualsAndHashCode.Exclude private Set<UserRole> userRoles=new HashSet<>();
 
@@ -66,6 +68,6 @@ public class User implements UserDetails , Serializable {
 
     @Override
     public boolean isEnabled() {
-        return true;
+        return this.enabled;
     }
 }

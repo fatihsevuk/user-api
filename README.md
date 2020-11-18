@@ -10,18 +10,19 @@ Rest Api with Spring Boot User Authentication Authorization , Spring Security an
 
 # features
 
-- Authentication
-- Authorization
-- Login
-- Register
+- Authentication +
+- Authorization +
+- Login +
+- Register +
 - Update User Info
 - Change Password
 - Forget Password
-- Confirm Email
+- Confirm Email +
 - Delete User Account
 - Block User Account
 
 # refoctoring
 
+- create docker-compose file
 - use email as username
 - model validation

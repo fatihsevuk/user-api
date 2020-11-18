@@ -27,7 +27,7 @@ public class UserApiApplication implements CommandLineRunner {
 
     @Override
     public void run(String... arg0) throws Exception {
-        User user1=new User();
+        /*User user1=new User();
         user1.setFirstname("Fatih");
         user1.setLastname("SEvük");
         user1.setUsername("F");
@@ -53,7 +53,7 @@ public class UserApiApplication implements CommandLineRunner {
         role2.setName("ROLE_ADMIN");
         userRoles.add(new UserRole(user2,role2));
 
-        userService.createUser(user2,userRoles);
+        userService.createUser(user2,userRoles);*/
 
 
 
