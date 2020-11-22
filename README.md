@@ -14,9 +14,9 @@ Rest Api with Spring Boot User Authentication Authorization , Spring Security an
 - Authorization +
 - Login +
 - Register +
-- Update User Info
+- Update User Info Without Password
 - Change Password
-- Forget Password
+- Forget Password *
 - Confirm Email +
 - Delete User Account
 - Block User Account
@@ -26,3 +26,12 @@ Rest Api with Spring Boot User Authentication Authorization , Spring Security an
 - create docker-compose file
 - use email as username
 - model validation
+
+
+# how to contribute
+
+- fork to your github
+- clone from your github to your local
+- make change or add feature
+- push your github
+- make a pull request

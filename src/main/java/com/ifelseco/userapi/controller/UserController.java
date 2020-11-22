@@ -28,6 +28,7 @@ public class UserController {
     @GetMapping("/confirm-email")
     public ResponseEntity<BaseResponseModel> confirmUserEmail(@RequestParam("uuid") String uuid) {
 
+
         BaseResponseModel responseModel=new BaseResponseModel();
 
         try {
@@ -76,6 +77,10 @@ public class UserController {
         }
 
     }
+
+
+
+
 
 
 

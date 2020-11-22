@@ -29,8 +29,9 @@ public class User implements UserDetails , Serializable {
     private String lastname;
     private String email;
     private String phone;
-
+    private boolean deletedUser;
     private boolean enabled;
+    private boolean accountNonLocked=true;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL,fetch = FetchType.LAZY)
     @EqualsAndHashCode.Exclude private Set<UserRole> userRoles=new HashSet<>();
@@ -58,7 +59,7 @@ public class User implements UserDetails , Serializable {
 
     @Override
     public boolean isAccountNonLocked() {
-        return true;
+        return accountNonLocked;
     }
 
     @Override
